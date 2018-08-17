@@ -1,0 +1,23 @@
+
+import java.util.Calendar;
+
+/**
+ * Java Program to calculate number of years and months
+ */
+public class TestYear {
+
+    @SuppressWarnings("empty-statement")
+    public static void main(String[] args) {
+        
+    	int model_year = 2013;
+    	int year = Calendar.getInstance().get(Calendar.YEAR);
+        
+    	int diff = year - model_year;
+      
+        //int months = age.getMonths();
+        
+        System.out.println("number of years: " + diff);
+        //System.out.println("number of months: " + months);
+    }
+
+}
