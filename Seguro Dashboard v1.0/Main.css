@@ -1,0 +1,110 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(BG.jpg);
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+#mainlogo{
+    position: absolute;
+    top:20px;
+    left: 20px;
+}
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top:100px;
+    left: 60px;
+}
+ul li{
+    font-family: monospace;
+    font-size: 20px;
+    color: white;
+    margin-top: 50px;
+}
+#mainmsg{
+    font-family: fantasy;
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    top:50%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    text-shadow: 0 10px 10px rgba(0,0,0,.1);
+    display: none;
+}
+#mainmsg2{
+    width: 300px;
+    font-family: fantasy;
+    font-size: 50px;
+    text-align: right;
+    color: white;
+    position: absolute;
+    top:65%;
+    left: 85%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+#mainskate{
+    position: absolute;
+    top:20%;
+    left: 120%;
+}
+#main{
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    top:80%;
+    left: 50%;
+    perspective: 800px;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+#mainbox{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #3F0063;
+    font-family: fantasy;
+    font-size: 32px;
+    color:#04C5D6;
+    text-align: center;
+    line-height: 70px;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    box-shadow: 0 15px 30px rgba(59,2,97,.4);
+    transition: all .5s;
+}
+#mainboxBottom{
+    width: 100%;
+    height: 30px;
+    background-color:#3B0261;
+    position: absolute;
+    top:79%;
+    left: 0;
+    transform: rotateX(-87deg);
+    transition: all .5s;
+}
+#main:hover #mainbox{
+    color: #52Dee7;
+    background-color: #4A0472;
+    transform: rotateX(25deg);
+    text-shadow: 0 10px 10px rgba(0,0,0,.2);
+    box-shadow: 0 25px 30px rgba(59,2,97,.4);
+}
+#main:hover #mainboxBottom{
+    transform: rotateX(-70deg);
+}
+
+
+a {
+
+    text-decoration: none;
+    
+}
+
+#mainlink{
+
+    color: #52Dee7;
+}
