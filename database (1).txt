@@ -80,10 +80,7 @@ select * from dual;
 
 
 
-insert all 
-into vehicle(registrationno,modelyear,vehicleimage,vehiclename,vehicleprice,vehicletype,email)values('UP11',2013,'images/car.jpg','Honda Activa',56000,'Two Wheeler','riya@gmail.com')
 
-select * from dual;
 
 
 
