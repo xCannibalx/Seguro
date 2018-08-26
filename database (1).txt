@@ -1,0 +1,91 @@
+insert all 
+into user_login(email,movie,name,password,usertype) values('rahul@gmail.com','pk','Rahul Sharma','rahul','user')
+into user_login(email,movie,name,password,usertype) values('rohit@gmail.com','ddlj','Rohit Sachan','rohit','user')
+into user_login(email,movie,name,password,usertype) values('priya@gmail.com','pk','Priya Singh','priya','user')
+into user_login(email,movie,name,password,usertype) values('purti@gmail.com','avtar','Purti Malik','purti','user')
+into user_login(email,movie,name,password,usertype) values('nihaal@gmail.com','run','Nihaal Chaudhary','nihaal','user')
+into user_login(email,movie,name,password,usertype) values('amit@gmail.com','race','Amit Agarwal','amit','user')
+into user_login(email,movie,name,password,usertype) values('pratik@gmail.com','pk','Pratik Verma','pratik','user')
+into user_login(email,movie,name,password,usertype) values('shikha@gmail.com','robot','Shikha Kapur','shikha','user')
+into user_login(email,movie,name,password,usertype) values('ricky@gmail.com','robot','Ricky Rathore','ricky','user')
+into user_login(email,movie,name,password,usertype) values('vani@gmail.com','kick','Vani Shukla','vani','user')
+into user_login(email,movie,name,password,usertype) values('nishi@gmail.com','pk','Nishi Roy','nishi','user')
+into user_login(email,movie,name,password,usertype) values('vishal@gmail.com','ddlj','Vishal Thakur','vishal','user')
+into user_login(email,movie,name,password,usertype) values('riya@gmail.com','run','Riya Somani','riya','user')
+into user_login(email,movie,name,password,usertype) values('shubh@gmail.com','khel','Shubh Jaiswal','shubh','user')
+into user_login(email,movie,name,password,usertype) values('kartik@gmail.com','race','Kartik Kamra','kartik','user')
+into user_login(email,movie,name,password,usertype) values('shaan@gmail.com','race','Shaan Singh','shaan','user')
+into user_login(email,movie,name,password,usertype) values('rakhi@gmail.com','avtar','Rakhi Rawat','rakhi','user')
+into user_login(email,movie,name,password,usertype) values('pooja@gmail.com','golmaal','Pooja Singh','pooja','user')
+into user_login(email,movie,name,password,usertype) values('ravi@gmail.com','golmaal','Ravi Vashi','ravi','user')
+into user_login(email,movie,name,password,usertype) values('seguro@gmail.com','pk','Seguro','seguro','admin')
+
+select * from dual;
+
+
+
+
+
+
+
+
+
+
+
+insert all 
+into vehicle(registrationno,modelyear,vehicleimage,vehiclename,vehicleprice,vehicletype,email)values('MH04BH4932',2013,'images/honda_activa.jpg','Honda Activa',56000,'Two Wheeler','rahul@gmail.com')
+
+into vehicle(registrationno,modelyear,vehicleimage,vehiclename,vehicleprice,vehicletype,email)values('UP78EH1047',2015,'images/maruti_suzuki.jpg','Maruti Suzuki',500000,'Four Wheeler','rahul@gmail.com')
+
+into vehicle(registrationno,modelyear,vehicleimage,vehiclename,vehicleprice,vehicletype,email)values('DL01BH1657',2013,'images/honda_aviator.jpg','Honda Aviator',60000,'Two Wheeler','rohit@gmail.com')
+
+into vehicle(registrationno,model1year,vehicleimage,vehiclename,vehicleprice,vehicletype,email)values('DL04BH2454',2016,'images/toyota_innova.jpg','Toyota Innova',890000,'Four Wheeler','priya@gmail.com')
+1
+into vehicle(registrationno,modelyear,vehicleimage,vehiclename,vehicleprice,vehicletype,email)values('MP02EH7865',2014,'images/maruti_ritz.jpg','Maruti Ritz',300000,'Four Wheeler','purti@gmail.com')
+
+into vehicle(registrationno,modelyear,vehicleimage,vehiclename,vehicleprice,vehicletype,email)values('DL06EH4932',2017,'images/royal_enfield.jpg','Royal Enfield',180000,'Two Wheeler','nihaal@gmail.com')
+
+into vehicle(registrationno,modelyear,vehicleimage,vehiclename,vehicleprice,vehicletype,email)values('UP78EH5093',2014,'images/bajaj_v.jpg','Bajaj V',140000,'Two Wheeler','amit@gmail.com')
+
+into vehicle(registrationno,modelyear,vehicleimage,vehiclename,vehicleprice,vehicletype,email)values('MH02BH4675',2013,'images/hyundai_elite.jpg','Hyundai Elite i20',450000,'Four Wheeler','riya@gmail.com')
+
+into vehicle(registrationno,modelyear,vehicleimage,vehiclename,vehicleprice,vehicletype,email)values('MH01BH1254',2013,'images/honda_city.jpg','Honda City'1300000,'Four Wheeler','pratik@gmail.com')
+
+into vehicle(registrationno,modelyear,vehicleimage,vehiclename,vehicleprice,vehicletype,email)values('UP78BH9872',2013,'images/yamaha_fascino.jpg','Yamaha Fascino',45000,'Two Wheeler','shikha@gmail.com')
+
+into vehicle(registrationno,modelyear,vehicleimage,vehiclename,vehicleprice,vehicletype,email)values('DL72EF2456',2013,'images/skoda.jpg','Skoda',1100000,'Four Wheeler','nishi@gmail.com')
+
+into vehicle(registrationno,modelyear,vehicleimage,vehiclename,vehicleprice,vehicletype,email)values('DL04EH2376',2016,'images/honda_activa.jpg','Honda Activa',56000,'Two Wheeler','vani@gmail.com')
+
+into vehicle(registrationno,modelyear,vehicleimage,vehiclename,vehicleprice,vehicletype,email)values('DL03BE8794',2016,'images/yamaha_fascino.jpg','Yamaha Fascino',58000,'Two Wheeler','ricky@gmail.com')
+
+into vehicle(registrationno,modelyear,vehicleimage,vehiclename,vehicleprice,vehicletype,email)values('UP78EN9773',2015,'images/maruti_ritz.jpg','Maruti Ritz',300000,'Four Wheeler','vishal@gmail.com')
+
+into vehicle(registrationno,modelyear,vehicleimage,vehiclename,vehicleprice,vehicletype,email)values('UP46EN9753',2017,'images/honda_shine.jpg','Honda Shine',160000,'Two Wheeler','shubh@gmail.com')
+
+into vehicle(registrationno,modelyear,vehicleimage,vehiclename,vehicleprice,vehicletype,email)values('MP78EN6433',2013,'images/bajaj_pulsar.jpg','Bajaj Pulsar',170000,'Two Wheeler','kartik@gmail.com')
+
+into vehicle(registrationno,modelyear,vehicleimage,vehiclename,vehicleprice,vehicletype,email)values('DL70EN4263',2012,'images/hyundai_santro.jpg','Hyundai Santro',400000,'Four Wheeler','shaan@gmail.com')
+
+into vehicle(registrationno,modelyear,vehicleimage,vehiclename,vehicleprice,vehicletype,email)values('DL78EN5462',2012,'images/royal_enfield.jpg','Royal Enfield',170000,'Two Wheeler','rakhi@gmail.com')
+
+into vehicle(registrationno,modelyear,vehicleimage,vehiclename,vehicleprice,vehicletype,email)values('MH12EH1065',2013,'images/hero_pleasure.jpg','Hero Pleasure',56000,'Two Wheeler','pooja@gmail.com')
+
+into vehicle(registrationno,modelyear,vehicleimage,vehiclename,vehicleprice,vehicletype,email)values('MH12EH7632',2014,'images/skoda.jpg','Skoda',750000,'Four Wheeler','seguro@gmail.com')
+
+
+select * from dual;
+
+
+
+
+
+insert all 
+into vehicle(registrationno,modelyear,vehicleimage,vehiclename,vehicleprice,vehicletype,email)values('UP11',2013,'images/car.jpg','Honda Activa',56000,'Two Wheeler','riya@gmail.com')
+
+select * from dual;
+
+
+
+
+
